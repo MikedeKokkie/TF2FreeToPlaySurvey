@@ -1,8 +1,9 @@
 # TF2FreeToPlaySurvey
 An analysis of Shounic's Free to Play Survey Results
-
-Michael de Kok
-27-05-2025
+Video:   https://www.youtube.com/watch?v=ATzcWmuPfsA
+Dataset: https://pastebin.com/raw/TDHhrQKZ
+Author:  Michael de Kok
+Date:    27-05-2025
 
 ## Install & Load Packages
 
