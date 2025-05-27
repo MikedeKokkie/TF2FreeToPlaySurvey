@@ -57,7 +57,7 @@ cat("Submissions kept:", dim(datacleaner)[1], "\nSubmissions filtered out as the
 
 ## Do an Initial set of Single-Parameter Correlations
 
-```{r }
+```{r correlation}
 cordata <- cor(datacleaner, method = "spearman")
 pvalues <- corr.test(datacleaner, method = "spearman")$p
 corrplot(corr = cordata, 
@@ -75,7 +75,7 @@ The Following Decision Tree is adapted from the following protocol: https://www.
 
 ## Set Parameters as Factors
 
-```{r correlation}
+```{r factors}
 datacleaner$F2P <- as.factor(datacleaner$F2P)
 datacleaner$Text <- as.factor(datacleaner$Text)
 datacleaner$Voice <- as.factor(datacleaner$Voice)
